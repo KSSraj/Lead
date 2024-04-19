@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .product {
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 50px;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 480px) {
+            .products{
+                margin: 10px;
+            }
+           .product{
+            width: 100%;
+            margin-bottom: 10px;
+           }
+        }
+        header{
+            background-color: bisque;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        a{
+           text-decoration: none; 
+           margin-right: 10px;
+        }
+        a:visited{
+            color:red;
+        }
+        a:active{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="file:///D:/xampp/htdocs/profile/cssdisplay.html">Shoes</a>
+        <a href="https://www.bing.com/search?q=Trending%20now&form=UAREQP">Watches</a>
+        <a href="https://www.youtube.com/">T-Shirt</a>
+    </header>
+    <section class="products">
+        <div class="product">
+            <p>Image</p>
+            <h3>Product Name</h3>
+        </div>
+        <div class="product">
+            <p>Image</p>
+            <h3>Product Name</h3>
+        </div>
+        <div class="product">
+            <p>Image</p>
+            <h3>Product Name</h3>
+        </div>
+        <div class="product">
+            <p>Image</p>
+            <h3>Product Name</h3>
+        </div>
+        <div class="product">
+            <p>Image</p>
+            <h3>Product Name</h3>
+        </div>
+    </section>
+</body>
+
+</html>
